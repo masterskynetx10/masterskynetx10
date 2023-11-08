@@ -22,7 +22,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           port: 21
-          server-dir: /cbadmin/
+          server-dir: /public_html/www/cbmedia-asia.com/
           log-level: verbose
           timeout: 100000
           
