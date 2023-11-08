@@ -2,7 +2,7 @@ name: 🚀 Deploy File to cPanel
 on:
   push:
     branches:
-      - prod
+      - main
 jobs:
   FTP-Deploy-Action:
     name: 🎉 Deploy
@@ -40,5 +40,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           port: 21
-          dry-run: true
 
