@@ -35,9 +35,10 @@ jobs:
       - name: 📂 Sync folders and files to the server
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          server: ftp.cbmedia-asia.com
+          username: cbmedia
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           port: 21
+          server-dir: /home/cbmedia/cbadmin
 
