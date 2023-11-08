@@ -40,5 +40,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           port: 21
-          server-dir: /home/cbmedia/cbadmin
+          server-dir: /home/cbmedia/cbadmin/
 
