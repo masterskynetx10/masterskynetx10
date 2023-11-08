@@ -20,7 +20,7 @@ jobs:
           server: ftp.cbmedia-asia.com
           username: cbmedia
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftp
+          protocol: ftps
           port: 21
           server-dir: /cbadmin/
           log-level: verbose
