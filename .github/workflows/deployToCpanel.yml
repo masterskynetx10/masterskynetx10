@@ -42,6 +42,5 @@ jobs:
           port: 21
           server-dir: /cbadmin/
           log-level: verbose
-          state-name: cbadmin/.sync-state.json
           timeout: 100000
           
